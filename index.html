@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:100" rel="stylesheet">
+  <title>My Portfolio</title>
+</head>
+<body>
+<!--Header with name and logo-->
+<header>
+  <img src="img/logo.svg" class="logo" alt="logo">
+  <div class="header-label">
+    <h1 class="name">Dustin Gogoll</h1>
+    <h3 class="profession">Front-End Web Developer</h3>
+  </div>
+</header>
+<!--Main section just for a picture at this moment-->
+<section class="main">
+  <div class="shadow">
+  <img src="img/main-picture-1000_normal-2x.jpg"
+  srcset="img/main-picture-300_small-1x.jpg 300w, img/main-picture-500_normal-1x.jpg 500w,
+  img/main-picture-800_large-1x.jpg 800w, img/main-picture-1000_normal-2x.jpg 1000w,
+  img/main-picture-1600_large-2x.jpg 1600w"
+  alt="computer code" class="main-picture" sizes="100vw" />
+  </div>
+</section>
+<!--Projects section to showcase projects-->
+<main class="projects">
+  <p class="p-headline">Featured Work</p>
+  <article class="projects">
+    <figure class="project-figs" id="storyP">
+      <img src="img/storypage-800_medium.jpg"
+      srcset="img/storypage-400_small.jpg 400w,
+      img/storypage-800_medium.jpg 800w,
+      img/storypage-1200_large.jpg 1200w"
+      sizes="(min-width: 700px) 32vw, 100vw"
+      alt="storypage project">
+      <div class="cover">
+        <h3 class="p-titles">Storywriter Page</h3>
+        <p class="clickMe">Go to the project</p>
+      </div>
+    </figure>
+    <figure class="project-figs" id="creativusP">
+      <img src="img/creativus-800_medium.jpg"
+      srcset="img/creativus-400_small.jpg 400w,
+      img/creativus-800_medium.jpg 800w,
+      img/creativus-1200_large.jpg 1200w"
+      sizes="(min-width: 700px) 32vw, 100vw"
+      alt="Web Design web page">
+      <div class="cover">
+        <h3 class="p-titles">Creativus Page</h3>
+        <p class="clickMe">Go to the project</p>
+      </div>
+    </figure>
+    <figure class="project-figs" id="tradingCardP">
+      <img src="img/tradingcard-800_medium.jpg"
+      srcset="img/tradingcard-400_small.jpg 400w,
+      img/tradingcard-800_medium.jpg 800w,
+      img/tradingcard-1200_large.jpg 1200w"
+      sizes="(min-width: 700px) 32vw, 100vw"
+      alt="Animal Trading Card">
+      <div class="cover">
+        <h3 class="p-titles">Animal trading card</h3>
+        <p class="clickMe">Go to the project</p>
+      </div>
+    </figure>
+  </article>
+</main>
+<footer>
+</footer>
+</body>
+<script src="js/main.js"></script>
+</html>
